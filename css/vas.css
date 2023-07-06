@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+.vas-scale {
+	position: relative;
+	width: 51px;
+	margin: 5px auto;
+	height: 90%;
+	cursor:pointer;
+}
+
+.vas-line {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 2px;
+	margin-top: 0px;
+	margin-left: 25px;
+	height: 100%;
+	background-color: #000;
+	z-index:0;
+}
+
+.vas-label {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	font-size: 120%;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.vas {
+	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	/* height:50%; for iPhone 5 */
+  	height:60%; 
+  	width:100%;
+  	margin-bottom: 60px;
+}
+
+.vas-content {
+	position: relative;
+	margin: 5px auto;
+	/*height: 87%; for iPhone 5*/
+	height: 90%; 
+	width:100%;
+	clear: both;
+}
+
+.vas-dot {
+	z-index:1;
+	position: absolute;
+	left: 18px;
+	top:0px;
+	display: none;
+	width: 16px;
+	height: 16px;
+	margin:0;
+	background-color: #000;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
